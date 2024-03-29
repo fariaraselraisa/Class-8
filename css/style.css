@@ -1,0 +1,625 @@
+*,
+*:before ,
+*:after{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.body{
+width: 100%;
+min-height: 100vh;
+background-image: url(../img/22.png);
+
+background-position: center;
+background-size: cover;
+/* overflow: hidden; */
+
+}
+
+
+ ul {
+display: flex;
+
+justify-content: center;
+background-color: black;
+padding: 20px;
+gap: 1rem;
+
+
+
+
+}
+
+li{
+    list-style:none ;
+    
+}
+
+ nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border-radius: 40px;
+    background:linear-gradient(#634933,#29201a) ;
+     
+}
+
+nav ul li a:hover{
+    background-color: blanchedalmond;
+    color: black;
+    border-radius: 40px;
+ background:blanchedalmond ;
+
+
+
+ /* box-shadow:      5px 5px 7px blanchedalmond,
+              -5px -5px 7px blanchedalmond; */
+ 
+}
+nav .parent{
+          position: relative;
+
+}
+
+nav .parent:hover .dropdown{
+    visibility: visible;
+    opacity: 1;
+    top: 38px;
+}
+
+
+.dropdown{
+    position: absolute;
+    top: 50px;
+    width: 200px;
+    height: 400px;
+    background-color:black; 
+    visibility: hidden;
+    
+    opacity: 0;
+    transition: o.9s;
+
+
+}
+
+ .parent ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+
+}
+
+
+.dropdown li {
+    padding: 10px;
+ background:linear-gradient(#634933,#29201a) ;
+    color:white;
+
+}
+.dropdown li:hover{
+    background-color: blanchedalmond;
+    color: black; 
+}
+
+/* sub */
+
+ .sub{ 
+    position: relative;
+
+}
+
+
+
+nav .sub:hover .subd{
+    visibility: visible;
+    opacity: 1;
+   
+}
+
+
+
+
+.subd{
+    position: absolute;
+    
+    width: 200px;
+    height: 250px;
+    background-color:black; 
+    visibility: hidden;
+    
+    opacity: 0;
+    transition: 1s;
+    margin-left: 150px;
+    
+}
+
+.sub ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+.subd li {
+  padding: 10px;
+  background:linear-gradient(#634933,#29201a) ;
+  color:white;
+
+}
+.subd li:hover{
+  background-color: blanchedalmond;
+  color: black; 
+}
+
+.sub{ 
+  position: relative;
+
+}
+
+
+
+nav .sub:hover .subd{
+  visibility: visible;
+  opacity: 1;
+ 
+}
+
+
+/* sub1 */
+ 
+
+.sub1{ 
+    position: relative;
+
+}
+
+
+
+nav .sub1:hover .subd1{
+    visibility: visible;
+    opacity: 1;
+   
+}
+
+
+
+
+.subd1{
+    position: absolute;
+    
+    width: 200px;
+    height: 290px;
+    background-color:black; 
+    visibility: hidden;
+    
+    opacity: 0;
+    transition: 1s;
+    margin-left: 150px;
+    
+}
+
+.sub1 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+.subd1 li {
+  padding: 10px;
+  background:linear-gradient(#634933,#29201a) ;
+  color:white;
+
+}
+.subd1 li:hover{
+  background-color: blanchedalmond;
+  color: black; 
+}
+
+.sub1{ 
+  position: relative;
+
+}
+
+
+
+nav .sub1:hover .subd1{
+  visibility: visible;
+  opacity: 1;
+ 
+}
+
+/* sub2 */
+
+.sub2{ 
+    position: relative;
+
+}
+
+
+
+nav .sub2:hover .subd2{
+    visibility: visible;
+    opacity: 1;
+   
+}
+
+
+
+
+.subd2{
+    position: absolute;
+    
+    width: 200px;
+    height: 340px;
+    background-color:black; 
+    visibility: hidden;
+    
+    opacity: 0;
+    transition: 1s;
+    margin-left: 150px;
+    
+}
+
+.sub2 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+.subd2 li {
+  padding: 10px;
+  background:linear-gradient(#634933,#29201a) ;
+  color:white;
+
+}
+.subd2 li:hover{
+  background-color: blanchedalmond;
+  color: black; 
+}
+
+.sub2{ 
+  position: relative;
+
+}
+
+
+
+nav .sub2:hover .subd2{
+  visibility: visible;
+  opacity: 1;
+ 
+}
+
+
+/* parent1 */
+
+nav .parent1{
+    position: relative;
+
+}
+
+nav .parent1:hover .dropdown1{
+visibility: visible;
+opacity: 1;
+top: 38px;
+}
+
+
+.dropdown1{
+position: absolute;
+top: 50px;
+width: 200px;
+height: 300px;
+background-color:black; 
+visibility: hidden;
+
+opacity: 0;
+transition: o.99s;
+
+
+}
+
+.parent1 ul {
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+
+}
+
+
+.dropdown1 li {
+padding: 10px;
+background:linear-gradient(#634933,#29201a) ;
+color:white;
+
+}
+.dropdown1 li:hover{
+background-color: blanchedalmond;
+color: black; 
+}
+
+/* parent2 */
+
+
+nav .parent2{
+    position: relative;
+
+}
+
+nav .parent2:hover .dropdown2{
+visibility: visible;
+opacity: 1;
+top: 38px;
+}
+
+
+.dropdown2{
+position: absolute;
+top: 50px;
+width: 200px;
+height: 200px;
+background-color:black; 
+visibility: hidden;
+
+opacity: 0.5;
+transition: o.9s;
+
+
+}
+
+.parent2 ul {
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+
+}
+
+
+.dropdown2 li {
+padding: 10px;
+background:linear-gradient(#634933,#29201a) ;
+color:white;
+
+}
+.dropdown2 li:hover{
+background-color: blanchedalmond;
+color: black; 
+}
+
+  .card{
+   
+     position: relative; 
+   
+ }  
+
+ img{
+  
+   display: block;
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20%;
+   
+      
+} 
+
+
+
+  .i{
+    
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+   
+     height:100px ;
+     width:100px ;
+    color: aliceblue;
+    background:linear-gradient(#634933,#29201a) ;
+   display: grid;
+   place-items: center;
+    border-radius: 50%;
+    margin: auto;
+
+    z-index: 22;
+} 
+.card .i:hover{
+    background-color: antiquewhite;
+}
+
+.i:before,
+.i:after{
+    content: "";
+position: absolute;
+height: 90%;
+width: 90%;
+background-color:#e7e2de ;
+border-radius: 50%;
+z-index: -1;
+opacity: o.8;
+}
+
+ .i:before{
+    background:linear-gradient(#634933,#29201a) ;
+animation: pulse 2s ease-out infinite;
+ }
+.i:after{
+    background:linear-gradient(#634933,#29201a) ;
+animation: pulse 2s 1s ease-out infinite;
+}
+
+@keyframes pulse{
+
+
+
+    100%{
+        transform: scale(1.8);
+        opacity: 0;
+    }
+}
+
+
+
+
+ .card .i i{
+    font-size: 20px;
+}
+
+nav i{
+    font-size:large ;
+    
+}
+.body{
+    display: flex;
+}
+
+.left{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+   
+    
+} 
+
+.h1{
+    padding-top: 120px;
+    padding-left: 70px;
+    color: rgb(222, 224, 226);
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+p{
+    padding-left: 70px;
+    color: rgb(198, 201, 204);
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.right .top{
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+   
+
+}
+.right .down{
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+  
+    padding-bottom: 10px;
+    padding-right: 30px;
+   
+} 
+
+
+
+.card{
+
+   
+border-radius: 20%;
+box-shadow:   5px 5px 10px #302f2e,
+             -5px -5px 10px #634933;
+             opacity: 1;
+}
+
+.card:hover{
+    opacity: 0.8;
+} 
+
+.fool{
+    padding-left: 450px ;
+
+}
+
+ .left .fool a{
+
+font-weight: 400;
+letter-spacing: .5px;
+padding: 12px 30px 10px;
+display: inline-block;
+margin: 0 15px;
+cursor: pointer;
+outline: none;
+position: relative;
+z-index: 1;
+transition: .8s;
+text-decoration: none;
+background: #ccc;
+color: #29201a;
+text-transform: uppercase;
+border-color: aliceblue;
+font-family:  "Whisper", cursive;
+font-size: 20px;
+border-radius: 0%;
+} 
+.left .fool a:hover:after{
+    width: 210px;
+    height: 80px;
+    right: 0;
+    border-color: rgb(255, 255, 255);
+
+}
+
+.left .fool a:after{
+position: absolute;
+content: "";
+display: block;
+width:17px ;
+height:25px ;
+border-width: 5px;
+border-style: solid;
+right:-10px ;
+top: -10px;
+border-bottom: none;
+border-left: none;
+transition: .5s;
+}
+.left .fool a:hover:before{
+    width: 210px;
+    height: 80px;
+    right: 0;
+    border-color: rgb(255, 255, 255);
+}
+
+.left .fool a:before{
+    position: absolute;
+    content: "";
+    display: block;
+    width:17px ;
+    height:25px ;
+    border-width: 5px;
+    border-style: solid;
+    
+    left: -10px;
+    bottom:-10px ;
+    border-top: none;
+    border-right: none;
+    transition: .5s;
+    }
+    .tag{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        gap: 1rem;
+    }
+    .tag .last a{
+        text-decoration: none;
+        color: #e7e2de;
+    }
